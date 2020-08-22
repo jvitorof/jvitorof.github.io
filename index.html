@@ -13,7 +13,7 @@
             
             h1 {
                 font-style: 'Roboto';
-                font-size: 3em;
+                font-size: 4em;
                 font-weight: 700;
                 color:rgb(0, 0, 25); 
                 background-color:rgba(220, 165, 35, 0.5);
@@ -24,36 +24,48 @@
             }
 
             h2 {
+                font-size: 2em;
                 color:rgb(0, 0, 25); 
                 background-color:rgba(220, 165, 35, 1);
                 padding: 15px 15px;
             }
 
             h3 {
+                font-size: 1.5em;
                 color:rgb(235, 235, 235);
                 background-color:rgba(220, 165, 35, 0.8);
+                padding: 5px 10px;
+                
             }
 
             .tag {
                 color: rgb(220, 165, 35);             
             }
 
-            #it1 {
-                font-size: 12px;
+            .lista {
+                font-size: 1.2em;
             }
 
-            #it2 {
-                font-size: 14px;
+            .icon {
+                background-color: rgb(255, 255, 255);
+                border-radius: 7px;
             }
 
-            #it3 {
-                font-size: 18px;
+            .paragraphright {
+                text-align: right;
             }
 
-            #it4 {
-                font-size: 22px;
+            .paragraphleft {
+                text-align: right;
             }
 
+            .paragraphcenter {
+                text-align: center;
+            }
+
+            .image {
+                border-radius: 15px;
+            }
             /*Defina fontes diferentes para o seu nome e para a descrição que você criou;
             /Defina uma cor base de background do seu Portfólio Web;
             /Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
@@ -64,11 +76,12 @@
     </head>
     <body>
         <h1>JOÃO VITOR OSÓRIO FLORES</h1>
-        <img id="foto-rosto" src="/IMAGENS/face.jpg" alt="João Vitor" width="150">
+        <img class="icon" id="foto-rosto" src="/IMAGENS/face.jpg" alt="João Vitor" width="150">
         <h3>Engenheiro de Produção
             <br>
             <em>"Sou apaixonado por desenvolvimento, pessoas e inovação."</em>
         </h3>
+        <hr>
         <p>
             <br><strong class=tag>Brasileiro</strong> natural de <strong class=tag>Dourados - MS</strong>.
             <br>Morando atualmente em <strong class=tag>Joinville - SC</strong>.
@@ -76,7 +89,7 @@
             <br>Feliz por aprender a Desenvolver Softwares. E <strong class=tag>tenho objetivos</strong> para essa nova habilidade.
             <br>
             <br>Pretendo <strong class=tag>elaborar</strong> até o final do curso da Trybe uma <strong class=tag>plataforma</strong> para que empresas pequenas possam realizar todo o controle de sua <strong class=tag>gestão e planejamento empresarial</strong> do controle financeiro, passando pela gestão de pessoas, gestão da produção, controles de estoque ao relacionamento com clientes. Com foco em pequenas empresas (mas, que também venham as grandes). Acredito que as empresas ainda estão mal servidas de conteudos relacionados ao melhor desempenho dos ERPs por serem pouco didáticos, dinâmicos e muitas vezes nada intuitívos.
-            <br>É muito trabalho? <em  class=tag>"Eu consigo!"</em>
+            <br>É muito trabalho? <em  class=tag>"Eu consigo! Mas certamente preciso de ajuda!"</em>
             <br>
             <br>Engenheiro de produção formado na <strong class=tag>Universidade Federal de Itajubá</strong>. Aquela em que foi difícil entrar, mas também foi difícil sair.
             <br>
@@ -85,18 +98,24 @@
             <br>Nas horas vagas sou <strong class=tag>Artista</strong>, faço desenhos (utilizando lápis ou nankin) e pinturas (utilizando principalmente aquarela). Ambas as técnicas heradados dos meus avós, Paulo Osório Flores e Maria Noemi Flores. Hobbie que foi redescoberto nesta quarentena de 2020 para aliviar o estresse do confinamento (nada como uma boa música e uma pintura).
             <br>      
         </p>
-        
+        <hr>
         <h3  id="habilidades">Habilidades</h3>
         <ul>
-            <li id="it1"><a href="#Lider">Liderança e desenvolvimento de equipes</a></li>
-            <li id="it2"><a href="#Lean">Desenvolvimento de processos enxutos</a></li>
-            <li id="it3"><a href="#Sistemas">Desenvolvimento e Modelagem de Sistemas</a></li>
-            <li id="it4"><a href="#Hobbies">Hobbies: Desenho e Pintura em aquerela; Marcenaria e Carpintaria; Música e Leitura </a></li>
+            <li class=lista><a href="#Lider">Liderança e desenvolvimento de equipes</a></li>
+            <li class=lista><a href="#Lean">Desenvolvimento de processos enxutos</a></li>
+            <li class=lista><a href="#Sistemas">Desenvolvimento e Modelagem de Sistemas</a></li>
+            <li class=lista><a href="#Hobbies">Hobbies: Desenho e Pintura em aquerela; Marcenaria e Carpintaria; Música e Leitura </a></li>
         </ul>
         <h3 id="conexoes">Conexões externas</h3>
-	    <P>
-            LinkedIn: <a target="_blank" href="www.linkedin.com/in/joaovitorof">João Vitor Osório Flores</a>
-        </P>
+	    <p>
+            <br>LinkedIn:
+            <br>
+            <a  target="_blank" href="www.linkedin.com/in/joaovitorof">
+                <img class="icon" src="https://content.linkedin.com/content/dam/me/about/LinkedIn_Icon.jpg.original.jpg" alt="Icone do LinkedIn"></img>
+                <br> 
+            </a>
+        </p>
+        <hr>
         <h3  id="Lider" >Liderança e desenvolvimento de equipes</h3>
         <p>
             Existem diversos estilos de liderança e as pessoas devem procurar aqueles que mais se enquadram em seu perfil. O importante na liderança é que lider e liderados possam estar satisfeitos na relação de mutualidade.
@@ -118,7 +137,13 @@
         <p>
             A pintura em aquarela é geralmente realizada em papel (Mas é de algodão, então não seria um tecido?) utilzando tintas que devem ser diluídas em água e possuem uma bem vinda transparência que pode (ou não) simular efeitos altamente desejados. Ou pelo fato de utilizar água em sua diluição, teremos efeitos altamente inesperados. Ela é realizada em camadas começando pela mais clara. <strong>Não deve haver o trabalho em demasia de uma determinada área</strong>, visto que o papel é altamente sensível ao principal componente da pintura, a maravilhosa água.
         </p>
-    
-        <h2><pre><a href="#foto-rosto"">Quem sou?</a>&#09<a href="#habilidades"">Habilidades</a>&#09<a href="#conexoes"">Conexões</a></pre></h2>
+        <p class="paragraphright">
+            <img class="image" src="/IMAGENS/IMG_20200722_225520766.jpg" alt="Aquarelas, João Vitor OF" height="700">
+        </p>        
+        <h2><pre>&#09<a href="#foto-rosto"">Quem sou</a>&#09&#09<a href="#habilidades"">Habilidades</a>&#09&#09<a href="#conexoes"">Conexões</a></pre></h2>
+        <p class="paragraphcenter">
+            <img class="image" src="/IMAGENS/IMG_20200704_170211243.jpg" alt="Meninas do João ao ar livre" height="700">
+        </p>
+        
     </body>
 </html>
