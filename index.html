@@ -6,8 +6,8 @@
         <style>
             body {
                 font-family: 'Arial', sans-serif;
-                color:rgb(200, 215, 200);
-                background-color:rgb(35, 35, 35);
+                color:rgb(35, 35, 35);
+                background-color:rgb(235, 235, 235);
 
             }
             
@@ -15,30 +15,57 @@
                 font-style: 'Roboto';
                 font-size: 3em;
                 font-weight: 700;
-                color:rgb(200, 215, 200);
-                text-align: end;
-                background-color: rgb(0, 0, 25);
+                color:rgb(0, 0, 25); 
+                background-color:rgba(220, 165, 35, 0.5);
+                /* color:rgb(200, 215, 200);                
+                background-color: rgb(0, 0, 25); */
                 padding: 15px 30px;
-
+                text-align: end;
             }
-            
+
+            h2 {
+                color:rgb(0, 0, 25); 
+                background-color:rgba(220, 165, 35, 1);
+                padding: 15px 15px;
+            }
+
+            h3 {
+                color:rgb(235, 235, 235);
+                background-color:rgba(220, 165, 35, 0.8);
+            }
+
             .tag {
-                color: goldenrod;             
+                color: rgb(220, 165, 35);             
             }
 
+            #it1 {
+                font-size: 12px;
+            }
 
+            #it2 {
+                font-size: 14px;
+            }
 
-                /* / Defina fontes diferentes para o seu nome e para a descrição que você criou;
-                /Defina uma cor base de background do seu Portfólio Web;
-                /Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
-                /Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;
-             */
+            #it3 {
+                font-size: 18px;
+            }
+
+            #it4 {
+                font-size: 22px;
+            }
+
+            /*Defina fontes diferentes para o seu nome e para a descrição que você criou;
+            /Defina uma cor base de background do seu Portfólio Web;
+            /Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
+            /Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;
+            */
+            
         </style>
     </head>
     <body>
-        <h1 class="headers">JOÃO VITOR OSÓRIO FLORES</h1>
+        <h1>JOÃO VITOR OSÓRIO FLORES</h1>
         <img id="foto-rosto" src="/IMAGENS/face.jpg" alt="João Vitor" width="150">
-        <h3 headers>Engenheiro de Produção
+        <h3>Engenheiro de Produção
             <br>
             <em>"Sou apaixonado por desenvolvimento, pessoas e inovação."</em>
         </h3>
@@ -51,7 +78,7 @@
             <br>Pretendo <strong class=tag>elaborar</strong> até o final do curso da Trybe uma <strong class=tag>plataforma</strong> para que empresas pequenas possam realizar todo o controle de sua <strong class=tag>gestão e planejamento empresarial</strong> do controle financeiro, passando pela gestão de pessoas, gestão da produção, controles de estoque ao relacionamento com clientes. Com foco em pequenas empresas (mas, que também venham as grandes). Acredito que as empresas ainda estão mal servidas de conteudos relacionados ao melhor desempenho dos ERPs por serem pouco didáticos, dinâmicos e muitas vezes nada intuitívos.
             <br>É muito trabalho? <em  class=tag>"Eu consigo!"</em>
             <br>
-            <br>Engenheiro de produção formado na <strong>Universidade Federal de Itajubá</strong>. Aquela em que foi difícil entrar, mas também foi difícil sair.
+            <br>Engenheiro de produção formado na <strong class=tag>Universidade Federal de Itajubá</strong>. Aquela em que foi difícil entrar, mas também foi difícil sair.
             <br>
             <br><strong class=tag>Marido</strong> da Juliana, <strong class=tag>pai</strong> da Maria Luísa e da Ana Clara e tutor do Bingo (o Shih-tzu que come madeira), muito feliz por ter construido uma linda família com mulheres lindas e um cachorro (mala :/).
             <br>
@@ -59,18 +86,18 @@
             <br>      
         </p>
         
-        <h3 class="headers" id="habilidades">Habilidades</h3>
+        <h3  id="habilidades">Habilidades</h3>
         <ul>
-            <li><a href="#Lider">Liderança e desenvolvimento de equipes</a></li>
-            <li><a href="#Lean">Desenvolvimento de processos enxutos</a></li>
-            <li><a href="#Sistemas">Desenvolvimento e Modelagem de Sistemas</a></li>
-            <li><a href="#Hobbies">Hobbies: Desenho e Pintura em aquerela; Marcenaria e Carpintaria; Música e Leitura </a></li>
+            <li id="it1"><a href="#Lider">Liderança e desenvolvimento de equipes</a></li>
+            <li id="it2"><a href="#Lean">Desenvolvimento de processos enxutos</a></li>
+            <li id="it3"><a href="#Sistemas">Desenvolvimento e Modelagem de Sistemas</a></li>
+            <li id="it4"><a href="#Hobbies">Hobbies: Desenho e Pintura em aquerela; Marcenaria e Carpintaria; Música e Leitura </a></li>
         </ul>
-        <h3 class="headers"id="conexoes">Conexões externas</h3>
+        <h3 id="conexoes">Conexões externas</h3>
 	    <P>
             LinkedIn: <a target="_blank" href="www.linkedin.com/in/joaovitorof">João Vitor Osório Flores</a>
         </P>
-        <h3 class="headers" id="Lider" >Liderança e desenvolvimento de equipes</h3>
+        <h3  id="Lider" >Liderança e desenvolvimento de equipes</h3>
         <p>
             Existem diversos estilos de liderança e as pessoas devem procurar aqueles que mais se enquadram em seu perfil. O importante na liderança é que lider e liderados possam estar satisfeitos na relação de mutualidade.
             <br>
@@ -79,15 +106,15 @@
             <br>
             Uma equipe onde cada pessoa sempre executa as mesmas atividades não cria a <strong>empatia</strong> pelas atividades realizadas pelos outros.
         </p>
-        <h3 class="headers" id="Lean" >Desenvolvimento de processos enxutos</h3>
+        <h3  id="Lean" >Desenvolvimento de processos enxutos</h3>
         <p>
             Se realizar uma atividade toma tempo e não esta gerando valor agregado, você provavelmente está fazendo errado. Isto pode ser extrapolado para qualquer campo de trabalho, do processo de serviço à industria manufatureira.
         </p>
-        <h3 class="headers" id="Sistemas" >Desenvolvimento e Modelagem de Sistemas</h3>
+        <h3  id="Sistemas" >Desenvolvimento e Modelagem de Sistemas</h3>
         <p>
             Qualquer atividade pelo ser humano pode ser enquadrada em um sistema, muito provavelmente pode ser medida, e tem uma fronteira e uma interação e muitas vezes é iterado. Isto nos coloca dentro de um sistema, que pode ser modelado e estudado. No fim, tudo é estatística e está dentro do sistema.
         </p>
-        <h3 class="headers" id="Hobbies" >Pintura em aquerela</h3>
+        <h3  id="Hobbies" >Pintura em aquerela</h3>
         <p>
             A pintura em aquarela é geralmente realizada em papel (Mas é de algodão, então não seria um tecido?) utilzando tintas que devem ser diluídas em água e possuem uma bem vinda transparência que pode (ou não) simular efeitos altamente desejados. Ou pelo fato de utilizar água em sua diluição, teremos efeitos altamente inesperados. Ela é realizada em camadas começando pela mais clara. <strong>Não deve haver o trabalho em demasia de uma determinada área</strong>, visto que o papel é altamente sensível ao principal componente da pintura, a maravilhosa água.
         </p>
