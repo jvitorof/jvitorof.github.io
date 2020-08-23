@@ -3,20 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title> João Vitor OF | TRYBER T007</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet" media=all>
         <style>
             body {
                 font-family: 'Arial', sans-serif;
-                color:rgb(35, 35, 35);
-                background-color:rgb(235, 235, 235);
+                color:#353535;
+                background-color: #dedad7;
 
             }
             
             h1 {
-                font-style: 'Roboto';
+                font-family: 'Open Sans Condensed';
                 font-size: 4em;
                 font-weight: 700;
-                color:rgb(0, 0, 25); 
-                background-color:rgba(220, 165, 35, 0.5);
+                color: #DEDAD7;
+                background-color: #545c5f;
                 /* color:rgb(200, 215, 200);                
                 background-color: rgb(0, 0, 25); */
                 padding: 15px 30px;
@@ -25,21 +26,22 @@
 
             h2 {
                 font-size: 2em;
-                color:rgb(0, 0, 25); 
-                background-color:rgba(220, 165, 35, 1);
+                color:#4d5d6c; 
+                background-color: #cecece;
                 padding: 15px 15px;
+                text-decoration: none;
             }
 
             h3 {
                 font-size: 1.5em;
                 color:rgb(235, 235, 235);
-                background-color:rgba(220, 165, 35, 0.8);
+                background-color: #4d5d6c;
                 padding: 5px 10px;
                 
             }
 
             .tag {
-                color: rgb(220, 165, 35);             
+                color: #545c5f;            
             }
 
             .lista {
@@ -66,6 +68,28 @@
             .image {
                 border-radius: 15px;
             }
+            
+            /* link que ainda não foi visitado */
+            a:link {
+            color: #4d5d5c;
+            }
+
+            /* link que foi visitado */
+            a:visited {
+                color: #545c5f;
+            }
+
+            /* mouse over */
+            a:hover {
+                color: #648893;
+            }
+
+            /* link selecionado */
+            a:active {
+                color: #191919;
+            }
+
+
             /*Defina fontes diferentes para o seu nome e para a descrição que você criou;
             /Defina uma cor base de background do seu Portfólio Web;
             /Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
@@ -125,7 +149,7 @@
             <br>
             Nas horas vagas sou 
             <strong class=tag>Artista</strong>
-            , faço desenhos (utilizando lápis ou nankin) e pinturas (utilizando principalmente aquarela). Ambas as técnicas heradados dos meus avós, Paulo Osório Flores e Maria Noemi Flores. Hobbie que foi redescoberto nesta quarentena de 2020 para aliviar o estresse do confinamento (nada como uma boa música e uma pintura).          
+            , faço desenhos (utilizando lápis ou nankin) e pinturas (utilizando principalmente aquarela). Ambas as técnicas herdados dos meus avós, Paulo Osório Flores e Maria Noemi Flores. Hobbie que foi redescoberto nesta quarentena de 2020 para aliviar o estresse do confinamento (nada como uma boa música e uma pintura).          
         </p>
         <hr>
         <h3  id="habilidades">Habilidades</h3>
@@ -136,15 +160,6 @@
             <li class="lista"><a href="#Hobbies">Hobbies: Desenho e Pintura em aquerela; Marcenaria e Carpintaria; Música e Leitura </a></li>
             <li class="lista"> Futuras Habilidades adiquiridas na Trybe - Desenvolvedor Full-stack</li>
         </ul>
-        <h3 id="conexoes">Conexões externas</h3>
-	    <p>
-            <br>LinkedIn:
-            <br>
-            <a  target="_blank" href="https://www.linkedin.com/in/joaovitorof">
-                <img class="icon" src="https://content.linkedin.com/content/dam/me/about/LinkedIn_Icon.jpg.original.jpg" alt="Icone do LinkedIn"></img>
-                <br> 
-            </a>
-        </p>
         <hr>
         <h3  id="Lider" >Liderança e desenvolvimento de equipes</h3>
         <p>
@@ -174,12 +189,23 @@
         <p class="paragraphright">
             <img class="image" src="/IMAGENS/IMG_20200722_225520766.jpg" alt="Aquarelas, João Vitor OF" height="400">
         </p>        
-        <h2><pre>&#09<a href="#foto-rosto"">Quem sou</a>&#09&#09<a href="#habilidades"">Habilidades</a>&#09&#09<a href="#conexoes"">Conexões</a></pre></h2>
-        <p class="paragraphcenter">
-            <br>Minha Inspiração
+        <h3 id="conexoes">Conexões externas</h3>
+	    <p>
+            <br>LinkedIn:
             <br>
+            <a  target="_blank" href="https://www.linkedin.com/in/joaovitorof">
+                <img class="icon" src="https://content.linkedin.com/content/dam/me/about/LinkedIn_Icon.jpg.original.jpg" alt="Icone do LinkedIn"></img>
+                <br> 
+            </a>
+        </p>
+        <h3 class="paragraphcenter"> Minha Inspiração </h3>
+        <p class="paragraphcenter">
+                        <br>
             <img class="image" src="/IMAGENS/IMG_20200704_170211243.jpg" alt="Meninas do João ao ar livre" height="700">
         </p>
+        
+        <h2><pre>&#09<a class="hiper" href="#foto-rosto">Quem sou</a>&#09&#09<a href="#habilidades" >Habilidades</a>&#09&#09<a href="#conexoes">Conexões</a></pre></h2>
         <hr>
+        
     </body>
 </html>
