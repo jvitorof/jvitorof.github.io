@@ -39,21 +39,63 @@ div {
 
 .whoami-content {
   max-width: 100%;
- 
   display: inline-block;
 }
 
 .whoami-text {
   max-width: 65%;
+  text-align: left;
   float: right;
 }
 
 .whoami-foto {
   max-width: 25%;
-  text-align: left;
-  clear: both;
   float: left;
 }
+
+.abilities-content {
+    max-width: 100%;
+    background-image: url("/IMAGENS/IMG_20200718_130649379-16:9.jpg");
+    background-size: cover;
+    background-position: 60% 10%;
+    display: inline-block;
+}
+
+.abilities-watercolor {
+    max-width: 40%;
+    text-align: left;
+    float: left;
+}
+
+.abilities-foto {
+    max-width: 40%;
+    float: right;
+}
+/* 
+.footer-conteiner {
+    max-width: 100%;
+    display: inline-flexbox;
+}
+
+.footer-left {
+    width: 27%;
+    margin: 0px;
+    padding: 0;
+    float: left;
+}
+
+.footer-center {
+    width: 27%;
+    margin: 0px;
+    padding: 0;
+}
+
+.footer-right {
+    width: 27%;
+    margin: 0px;
+    padding: 0;
+    float: right;
+}     */
 
 .tag {
   color: #545c5f;
