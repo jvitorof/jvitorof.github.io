@@ -1,0 +1,98 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #353535;
+  background-color: #dedad7;
+}
+
+h1 {
+  font-family: "Open Sans Condensed";
+  font-size: 4em;
+  font-weight: 700;
+  color: #dedad7;
+  background-color: #545c5f;
+  /* color:rgb(200, 215, 200);                
+    background-color: rgb(0, 0, 25); */
+  padding: 15px 30px;
+  text-align: end;
+}
+
+h2 {
+  font-size: 2em;
+  color: #4d5d6c;
+  background-color: #cecece;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: rgb(235, 235, 235);
+  background-color: #4d5d6c;
+  padding: 5px 10px;
+}
+.whoami-content {
+  max-width: 90%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.whoami-text {
+  max-width: 70%;
+  vertical-align: middle;
+  float: right;
+}
+
+.whoami-foto {
+  max-width: 30%;
+  vertical-align: middle;
+  float: left;
+}
+
+.tag {
+  color: #545c5f;
+}
+
+.lista {
+  font-size: 1.2em;
+}
+
+.icon {
+  border-radius: 7px;
+}
+
+.paragraphright {
+  text-align: right;
+}
+
+.paragraphleft {
+  text-align: right;
+}
+
+.paragraphcenter {
+  text-align: center;
+}
+
+.image {
+  border-radius: 15px;
+}
+
+/* https://pt.stackoverflow.com/questions/153761/como-tirar-a-cor-azul-de-links-ultilizando-css
+/* link que ainda não foi visitado */
+a:link {
+  color: #4d5d5c;
+}
+
+/* link que foi visitado */
+a:visited {
+  color: #545c5f;
+}
+
+/* mouse over */
+a:hover {
+  color: #648893;
+}
+
+/* link selecionado */
+a:active {
+  color: #191919;
+}
